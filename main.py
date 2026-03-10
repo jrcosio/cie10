@@ -2,13 +2,13 @@ import os
 import pandas as pd
 from colorama import init, Fore, Style
 
-from pipeline import codificar_paciente, leer_excel_de_diagnosticos
+from pipeline import codificar_paciente, leer_excel_de_diagnosticos, preparar_base_datos_vectorial
 
 init(autoreset=True) # Para limpiar los colorinchis después de cada print
 
 if __name__ == "__main__":
     # Para vectorializar el catálogo CIE-10 (solo la primera vez, o si quieres actualizarlo)
-    # preparar_base_datos_vectorial('data/CIE10ES_2026_Finales.xlsx')
+    #preparar_base_datos_vectorial('data/CIE10ES_2026_Finales.xlsx')
 
     listado = leer_excel_de_diagnosticos('data/Pruebas CIE-10_v1.xlsx')
 
