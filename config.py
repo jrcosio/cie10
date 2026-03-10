@@ -11,8 +11,8 @@ if not GEMINI_API_KEY:
         "Ejecútalo con: set GEMINI_API_KEY=tu_clave (Windows) o export GEMINI_API_KEY=tu_clave (Linux/Mac)"
     )
 
-#MODEL_NAME       = "gemini-2.5-flash-lite"
-MODEL_NAME       = "gemini-3.1-flash-lite-preview"
+MODEL_NAME       = "gemini-2.5-flash-lite"
+# MODEL_NAME       = "gemini-3.1-flash-lite-preview"
 EMBEDDING_MODEL  = "gemini-embedding-001"
 COLLECTION_NAME  = "cie10_catalogo"
 
